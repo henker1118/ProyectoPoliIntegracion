@@ -1,7 +1,7 @@
 pipeline {
   agent {
-    docker {
-      image 'henker1118/proyectopoliintegracion'
+    dockerfile {
+      filename 'Dockerfile'
     }
 
   }
