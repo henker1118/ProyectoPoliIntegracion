@@ -8,6 +8,6 @@ ENV APACHE_RUN_GROUP www-data
 ENV APACHE_LOG_DIR /var/log/apache2
 
 EXPOSE 80
-ADD ["index.html","2002.html","Mundiales/2002.html","Mundiales/2006.html","Mundiales/2010.html","Mundiales/2014.html","Mundiales/2018.html","Mundiales/2022.html","Mundiales.html","Imagenes","/var/www/html/"]
+ADD ["index.html","2002.html","Mundiales/2002.html","Mundiales/2006.html","Mundiales/2010.html","Mundiales/2014.html","Mundiales/2018.html","Mundiales/2022.html","Mundiales/Mundiales.html","Mundiales/misestilos.css","Imagenes","/var/www/html/"]
 
 ENTRYPOINT ["/usr/sbin/apache2ctl", "-D", "FOREGROUND"]
