@@ -1,0 +1,13 @@
+
+
+
+
+
+
+
+
+deploy:
+  provider: surge
+  project: ./Dockerfile/
+  domain: clammy-support.surge.sh
+  skip_cleanup: true
